@@ -1,11 +1,16 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        <tittle>Plantas Carnívoras</tittle> 
+        <tittle id="titulo">Plantas Carnívoras</tittle> 
         <style>
-            tittle{
+            #titulo{
                 color: limegreen;
                 font-size: 28px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            tittle{
+                color: limegreen;
+                font-size: 22px;
                 font-family: 'Times New Roman', Times, serif;
             }
             body{
@@ -13,8 +18,6 @@
                 font-family: Arial, Helvetica, sans-serif;
                 margin-left: 10%;
                 margin-right: 10%;
-            }
-            p {
                 text-align: justify;
             }
             blockquote{
@@ -23,7 +26,13 @@
             #quadro {
                 border: 3px solid limegreen;
                 padding: 10px;
-                background-image: imagens/fundo;
+                background-image: url("imagens/fundo.png");
+            }
+            img{
+                width: 300px;
+                border: 8px solid limegreen;
+                margin: auto;
+                display: block;
             }
         </style>
         </head>
@@ -53,8 +62,43 @@
                 necessários a partir da matéria animal capturada.
             </p>
             <p id="quadro">
-                <strong>Você said="titulo-principal"bia?</strong> Há mais de 500 espécies de plantas carnívoras distribuídas no mundo todo,
+                <strong>Você sabia?</strong> Há mais de 500 espécies de plantas carnívoras distribuídas no mundo todo,
                 com exceção da Antártida. Veja uma <a href="https://en.wikipedia.org/wiki/List_of_carnivorous_plants">lista extensa de espécies na Wikipedia.</a>
+            </p>
+            <p>
+                As plantas carnívoras utilizam-se de várias armadilhas para atrair e capturar suas presas, como:
+                <li><a href="#armadilha-jaula">"Jaula"</a></li>
+                <li><a href="#armadilha-succao">Armadilhas de Sucção</a></li>
+            </p>
+            <tittle>
+                Armadilhas "Jaula"
+            </tittle>
+            <img src="imagens/armadilha-jaula.jpg">
+            <p>
+                As folhas das plantas carnívoras que possuem este tipo de armadilha estão divididas em duas
+                partes, similar a uma boca, com gatilhos no interior. Este gatilho ao ser tocado pelo animal aciona
+                um mecanismo que imediatamente fecha as metades da folha, sendo abertas somente após adigestão do animal. Ao contrário do que muitas pessoas pensam, estas enzimas proteolíticas
+                são inofensivas à pele humana e aos animais de médio e grande porte. Esse tipo de armadilha
+                é encontrada na Dionéia <em>(Dionaea)</em> que se alimenta principalmente de aranhas, moscas, lagartas,
+                grilos, lesmas, entre outros.
+            </p>
+            <tittle>
+                Armadilhas de "Sucção"
+            </tittle>
+            <img src="imagens/armadilha-succao.jpg">
+            <p>
+                Este tipo de armadilha é encontrado em todas as espécies de <em>Utricularia</em>, que vivem submersas
+                em água doce ou brejos. Possuem utrículos que se assemelham a pequenas bolsas, contendo
+                uma minúscula entrada cercada por gatilhos, e ao serem estimulados provocam a abertura dessa
+                entrada. Quando a entrada é aberta, é sugado para dentro tudo que estiver ao redor, incluindo à
+                presa que estimulou o gatilho.
+            </p>
+            <tittle>
+                Crie sua própria planta carnívora
+            </tittle>
+            <p>
+                Se você estiver interessado em comprar sementes, visite 
+                <a href="loja.html">nossa lojinha.</a>
             </p>
         </body>    
 </html>
